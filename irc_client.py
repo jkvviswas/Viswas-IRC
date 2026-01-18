@@ -3,7 +3,6 @@ import threading
 import argparse
 import datetime
 
-# Colors
 GREEN = "\033[92m"
 BLUE = "\033[94m"
 YELLOW = "\033[93m"
@@ -98,3 +97,4 @@ def send():
 
 threading.Thread(target=receive, daemon=True).start()
 send()
+
